@@ -10,7 +10,7 @@ The relevance of this neural variability with behavioral variability has been ob
 
 ### Why is this problem is hard?
 
-We are lack of reaching the all components associated with neural activity due to the limited measurement capacity of neuroimaging tools. The variaibltiy of neural activity observed via these tools can only reflect superficial aspect of these dynamics. Therefore, we miss the details regarding the source of neural variaiblity. Furthermore, modeling and understanding relationship between neural variaiblity and behaviour remains elusive due to same reason. 
+We lack of reaching the all components associated with neural activity due to the limited measurement capacity of neuroimaging tools. The variaibltiy of neural activity observed via these tools can only reflect superficial aspect of these dynamics. Therefore, we miss the details regarding the source of neural variaiblity. Furthermore, modeling and understanding relationship between neural variaiblity and behaviour remains elusive due to same reason. Especially, trial by trial variaiblity due to the unknown influences is very common and the functional role still  has not been understood well.
 
 Even if the our position is not very advantegous to observe all factors within tbe brain, we need to find a way to answer these challenging questions;
 
