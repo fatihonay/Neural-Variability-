@@ -11,3 +11,7 @@ The relevance of this neural variability with behavioral variability has been ob
 ### Why is this problem is hard?
 
 We are lack of reaching the all components associated with neural activity due to the limited measurement capacity of neuroimaging tools. The variaibltiy of neural activity observed via these tools can only reflect superficial aspect of these dynamics. Therefore, we miss the details regarding the source of neural variaiblity. 
+
+- What is the origin of neural variabiilty?
+- How does neural variability impact behavior?
+- What are the functional or adaptive roles that neural variaibilty may play?
