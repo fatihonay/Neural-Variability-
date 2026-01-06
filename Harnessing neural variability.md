@@ -4,4 +4,5 @@ The article highlights an important distinction between neuronal noise and neuro
 
 - Internal state of the neuron 
 - External input conveyed through synaptic transmission
+
 However, it remains ambiguous whether a single neuron will generate a spike even when both the external input and the internal state are precisely known. An additional factor arises from background fluctuations at the neuronal population level, which reflect ongoing network dynamics and spontaneous activity. These fluctuations introduce uncertainty into spike generation and contribute substantially to trial-to-trial variability, even under seemingly identical conditions.
