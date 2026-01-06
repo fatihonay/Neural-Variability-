@@ -17,3 +17,5 @@ Even though our position is not ideal for observing all factors within the brain
 - What is the origin of neural variabiilty?
 - How does neural variability impact behavior?
 - What are the functional or adaptive roles that neural variaibilty may play?
+
+Answering these questions could be inspiring for us to discover more about the neuronal dynamics within the brain. In order to gain more insight into this challenging problem, we should firstly identify what main factors contribute to the neural variability.
