@@ -19,3 +19,10 @@ Even though our position is not ideal for observing all factors within the brain
 - What are the functional or adaptive roles that neural variaibilty may play?
 
 Answering these questions could be inspiring for us to discover more about the neuronal dynamics within the brain. In order to gain more insight into this challenging problem, we should firstly identify what main factors contribute to the neural variability.
+
+### Source of variability 
+
+We can divide main effects behind the neuronal variability into two brpad categories; internal and external componenets. Since our brain manages to keep itself in homeostatic state, it has to adjust internal states depending on the external stimuli and environment. This situation creates complex dynamics which is not easy to interpret directly. 
+
+
+
