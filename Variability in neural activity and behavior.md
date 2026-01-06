@@ -32,7 +32,7 @@ The figure below illustrates the decreasing unaccounted neural variability in th
 
 ### Relevance to Behaviour
 
-Behavioral changes are also associated with neural variability and finding more deterministic relationship between neuronal variability and behavioral performance would be very useful for us to evaluate consequences of neuronal dynamics on the behavior. 
+Behavioral changes are also associated with neural variability and finding more deterministic relationship between neuronal variability and behavioral performance would be very useful for us to evaluate consequences of neuronal dynamics on the behavior.  For instance, the experience from previous trials affect how the subject will respond to current stimuli or task.
 
 
 
