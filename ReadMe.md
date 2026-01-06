@@ -4,5 +4,7 @@ This repository aims to address the mystery of neural variability. It will serve
 I set some goals for this repository;
 
 - In this respository, I will systematically review articles to understand their motivation and the challenges they adressed.
+- I aim to determine methodological approaches which could be useful in understanding neural variaiblity.
 - 
+
 
