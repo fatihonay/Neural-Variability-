@@ -6,4 +6,4 @@ This article highlights the important distinction between neuronal noise and var
 - Internal state of the neuron
 - External input through synaptic transmission
 
-  
+However, it is still ambigous whether single neuron will generate spike even if the external input and internal state are exactly known. 
