@@ -29,6 +29,8 @@ Interestingly, even in the absence of external stimuli, neuronal activity remain
 
 Behavioral changes are also associated with neural variability and finding more deterministic relationship between neuronal variability and behavioral performance would be very useful for us to evaluate consequences of neuronal dynamics on the behavior. 
 
+<img width="425" height="297" alt="Screenshot 2026-01-05 at 21 11 30" src="https://github.com/user-attachments/assets/df6aa586-d80f-463c-a5c4-b8bc2e3d7667" />
+
 
 
 
