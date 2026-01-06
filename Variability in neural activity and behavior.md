@@ -25,6 +25,8 @@ Answering these questions could be inspiring for us to discover more about the n
 We can divide the main factors underlying neuronal variability into two broad categories: internal and external components. Because the brain maintains itself in a homeostatic state, it must continuously adjust its internal dynamics in response to external stimuli and environmental conditions. This ongoing adjustment gives rise to complex dynamics that are not easy to interpret directly.
 Interestingly, even in the absence of external stimuli, neuronal activity remains highly variable and fluctuates rapidly from moment to moment. This intrinsic variability can be reduced by external stimuli, which constrain neuronal population responses to encode incoming information more reliably. In particular, trial-by-trial variability becomes confined to a narrower range, and attention emerges as a key factor determining the degree of this variability.
 
+The figure below illustrates the decreasing unaccounted neural variability in the case of more controlled environment is constructed. However, it is not possible to get rid of all unknown sources of variaiblity and we should not forget the irreducible part will be always there.
+
 <img width="425" height="297" alt="Screenshot 2026-01-05 at 21 11 30" src="https://github.com/user-attachments/assets/df6aa586-d80f-463c-a5c4-b8bc2e3d7667" />
 
 
