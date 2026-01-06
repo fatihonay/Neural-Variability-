@@ -10,8 +10,8 @@ I set some goals for this repository;
 
 ##### Why am I interested in this issue/problem?
 
-Neural variability plays in the complexity and adaptibility of the nervous system. Instead of ignoring it, we should model, control and exploit it to enhance our understanding of human brain.
-
+- Neural variability plays in the complexity and adaptibility of the nervous system. Instead of ignoring it, we should model, control and exploit it to enhance our understanding of human brain.
+-  Inconsistent experimental outcomes in clinical, BCI, neurofeedback, brain stimulation stems from inherent neural variability. We need to understand more to reach realiable research findings.
 
 This repository is not static and I will always update it. If you would like to contribute interesting ideas, please contact with me;
 fatih.onay@btu.edu.tr
