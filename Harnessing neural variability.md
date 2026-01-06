@@ -1,6 +1,6 @@
 The article titled “Harnessing neural variability: Implications for brain research and non-invasive brain stimulation” captured my attention due to the potentially wide range of applications of neural variability in the context of brain stimulation. This field offers a unique opportunity to take an active role in designing experiments that directly interact with the functioning brain. We know that the brain is inherently highly variable, and external stimulation can also lead to unexpected outcomes through the amplification of intrinsic neural variability.
 
-The article highlights an important distinction between neuronal noise and neuronal variability, two concepts that are closely related yet not identical. At the neuronal level, spike generation depends on two main factors:
+The article highlights an important distinction between neuronal noise and neuronal variability, two concepts that are closely related to eac other. Specificaly, noise plays an important role at cellular and network level of the nervous system. At the neuronal level, spike generation depends on two main factors:
 
 - Internal state of the neuron 
 - External input conveyed through synaptic transmission
