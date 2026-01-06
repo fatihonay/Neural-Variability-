@@ -8,6 +8,11 @@ I set some goals for this repository;
 - Examples with applications on real neuroimaging data to observe different kind of neural and behavioral variability.
 
 
+##### Why am I interested in this issue/problem?
+
+Neural variability plays in the complexity and adaptibility of the nervous system. Instead of ignoring it, we should model, control and exploit it to enhance our understanding of human brain.
+
+
 This repository is not static and I will always update it. If you would like to contribute interesting ideas, please contact with me;
 fatih.onay@btu.edu.tr
 
