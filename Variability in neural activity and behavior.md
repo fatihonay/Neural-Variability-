@@ -22,7 +22,8 @@ Answering these questions could be inspiring for us to discover more about the n
 
 ### Source of variability 
 
-We can divide main effects behind the neuronal variability into two brpad categories; internal and external componenets. Since our brain manages to keep itself in homeostatic state, it has to adjust internal states depending on the external stimuli and environment. This situation creates complex dynamics which is not easy to interpret directly. Interestingly, in the absence of any external stimuli, neuronal activity is highly variable and changes rapidly moment to moment.  This variable state could be reduced with the external stimuli by adjusting responses of neruonal populations to encodde incoming information.
+We can divide the main factors underlying neuronal variability into two broad categories: internal and external components. Because the brain maintains itself in a homeostatic state, it must continuously adjust its internal dynamics in response to external stimuli and environmental conditions. This ongoing adjustment gives rise to complex dynamics that are not easy to interpret directly.
+Interestingly, even in the absence of external stimuli, neuronal activity remains highly variable and fluctuates rapidly from moment to moment. This intrinsic variability can be reduced by external stimuli, which constrain neuronal population responses to encode incoming information more reliably. In particular, trial-by-trial variability becomes confined to a narrower range, and attention emerges as a key factor determining the degree of this variability.
 
 
 
