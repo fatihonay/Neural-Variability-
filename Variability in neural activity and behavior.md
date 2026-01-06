@@ -34,6 +34,7 @@ The figure below illustrates the decreasing unaccounted neural variability in th
 
 Behavioral changes are also associated with neural variability and finding more deterministic relationship between neuronal variability and behavioral performance would be very useful for us to evaluate consequences of neuronal dynamics on the behavior.  For instance, the experience from previous trials affect how the subject will respond to current stimuli or task.
 
+Furthermore, the role of attention is also very significant on the amount of neural variability. If the attention is strong and directed to stimuli efficiently, neural variability decreases across trials. Nevertheless, it is still ambigous what extent this variaiblity could be beneficial and healthy whem dealing with complex tasks.
 
 <img width="284" height="371" alt="Screenshot 2026-01-06 at 09 37 57" src="https://github.com/user-attachments/assets/33a132e0-e45e-47c0-8b83-675dc32839b7" />
 
