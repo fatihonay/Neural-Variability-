@@ -19,7 +19,7 @@ As you can see, there are a few terms describing the properties of the PSD assoc
 - Aperiodic Exponent: Shows the how steep background neural activity is. The level of steepnes or flatness can indicate different physiological states, such as the balance between excitation and inhibition.
 - Center Frequency: The specific narrow-band oscillatory component with a peak at center frequency.
 
-Now, let's emphasize how chages in oscillatory power could be associated with different mechanisms rather than simple power change of neural oscillations. The broadband shift and exponent change of aperiodic component results in altered oscillattory peak. However, this is misleading ant not reflect reality.  
+Now, let's emphasize how chages in oscillatory power could be associated with different mechanisms rather than simple power change of neural oscillations. The broadband shift and exponent change of aperiodic component results in altered oscillattory peak. However, this is misleading ant not reflect reality. This simple illustrative example simply explaing why we need to model the estmation of both components separately. 
 
 <img width="1170" height="341" alt="Screenshot 2026-01-13 at 14 28 48" src="https://github.com/user-attachments/assets/75d9e8b3-d252-4737-bbaf-2ff161edd1b3" />
 
