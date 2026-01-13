@@ -13,8 +13,7 @@ At this point, I want to ask a question for you to think.
 - What costs us to interperet 
 
 
-
-
+<img width="935" height="278" alt="Aperiodic" src="https://github.com/user-attachments/assets/da0d749c-e497-41ac-b15d-5892abc515f4" />
 
 
 
