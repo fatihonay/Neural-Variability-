@@ -6,9 +6,7 @@ This separation is important because it provides us to reveal systematic changes
 session, I will review an article titled "Parameterizing neural power spectra into periodic and aperiodic components" which is published
 in Nature Neuroscience. 
 
-The power spectrum of neurophysilogical signals is informative about which oscillatory components contribute to neural activity. However, 
-estimation of power spectrum could be conflated by aperiodic non-oscillatory neural activity. In order to deal with this problem, the 
-authors developed an algorithm to systematically separate periodic and aperiodic component related power spectrum. 
+The power spectrum of neurophysilogical signals is informative about which oscillatory components contribute to neural activity. However,  estimation of power spectrum could be conflated by aperiodic non-oscillatory neural activity. In order to deal with this problem, the  authors developed an algorithm to systematically separate periodic and aperiodic component related power spectrum. 
 
 At this point, I want to ask a question for you to think.
 - What functional roles do oscillations play in brain ?
