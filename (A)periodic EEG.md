@@ -105,8 +105,10 @@ Step 3:
 
 The iterative fitting gave us good initial guesses, but they might not be optimal when considering all peaks together. Actually there are two constrains in the fitting operation of Gaussians;
 - Gaussians that heavily overlap (whose means are within 0.75 s.d. of the other),
-- Gaussians that are too close to the edge (≤1.0 s.d.) of the spectrum
+- and gaussians that are too close to the edge (≤1.0 s.d.) of the spectrum,
 are then dropped. The remaining Gaussian parameters are used in optimization (scipy.optimize.curve_fit) to fit all Gaussians simultaneously.
-In order to minimize the squared error between the flattened spectrum and all N Gaussians, each Gaussian is constrained to stay within 1.5 s.d. of its initial guess
+In order to minimize the squared error between the flattened spectrum and all N Gaussians, each Gaussian is constrained to stay within 1.5 s.d. of its initial guess.
+
+Now that we have accurate Gaussian fits for the peaks, we can get an even better estimate of the aperiodic component. Therefore, the optimally fitted Gaussians are subtracted from original PSD. We fit the aperiodic component again on this peak-removed spectrum.
 
 
