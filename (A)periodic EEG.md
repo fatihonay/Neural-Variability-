@@ -78,7 +78,9 @@ where:
 
   ## Evil in Details
   So far so good? 
-  We completed general framework of the method. However, I want you to be careful about the details when performing this methodological approach.
+  We completed general framework of the method. However, I want you to be careful about the details when performing this methodological approach. Let's talk about these details now.
+
+  As you can remember, we should do curve fitting on the original PSD to acquire the aperiodic component. Note that this initial aperiodic component estimation is not the final parameterized component. Fitting at this stage is distorted due to the peaks in PSD and would not be reliable.  Nevertheless, we still need a rough estimation of aperiodic component to proceed. 
 
   
 
