@@ -25,6 +25,14 @@ Now, let's emphasize how chages in oscillatory power could be associated with di
 
 
 
+The effective way of getting information from both periodic and aperiodic PDS compoents is to parameterize them. Thus, we can easily describe changes of PSD using a few parameters. This will enables us to compare different conditions, cohorts, poopulations, subjects and so on. For this purpose, we can use the followin parameters;
+
+- Periodic Componenet Parameters: Center frequency, bandwidth, power
+- Aperiodic Component Parameters: Aperiodic exponent and aperiodic offset
+
+
+
+
 
 
 
