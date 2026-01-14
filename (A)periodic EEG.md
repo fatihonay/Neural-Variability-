@@ -84,7 +84,14 @@ where:
 
   - Offset = power at the first frequency point
   - Exponent = slope calculated between first and last frequency points (in log-log space)
+  These initial seed values give rough estimation of aperiodic component which is used for subtracting from original to create flattened spectrum.
 
+You may think that everything is okay for the 1st step. I am sorry but no ! We need one further operation to complete 1st step. 
+
+We keep only frequency points below 2.5th percentile threshold to find the lowest-power points in this flattened spectrum.
+These low-power points are not part of oscillatory peaks. They represent the true aperiodic component. Then, we  re-fit the aperiodic component using only these selected frequency points from the original PSD. Thus, we obtain a good estimate of the aperiodic component that wasn't biased by the peaks. 
+
+Congratulations !!! Now we can proceed to review detils of the 2nd step.
   
 
 
