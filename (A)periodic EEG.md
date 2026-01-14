@@ -32,6 +32,8 @@ The effective way of getting information from both periodic and aperiodic PDS co
 
 ## The Proposed Method
 
+- 1st Step: Perform curve fitting on estimated PSD to characterize aperiodic component. Then, subtract fitted curve from original PSD (a and b in the figure below)
+
 
 <img width="854" height="573" alt="Method" src="https://github.com/user-attachments/assets/80e60c35-04d8-4814-9a87-fcb7927e2316" />
 
