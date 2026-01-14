@@ -92,9 +92,12 @@ We keep only frequency points below 2.5th percentile threshold to find the lowes
 These low-power points are not part of oscillatory peaks. They represent the true aperiodic component. Then, we  re-fit the aperiodic component using only these selected frequency points from the original PSD. Thus, we obtain a good estimate of the aperiodic component that wasn't biased by the peaks. 
 
 Congratulations !!! Now we can proceed to review detils of the 2nd step.
+
+
+
+
+Firstly, we find the highest peak in the flattened spectrum extract its properties; center frequency (location of the peak), peak power (height of the peak) and the bandwidth (standard deviation). Thus, we can fit a Gaussian with these parameters (center, power, bandwidth) and then subtract this Gaussian from the flattened spectrum
+We repeat the same process on the remaining spectrum to find the next highest peak. We terminate this operation when remaining peaks are below the noise threshold (default = 2 standard deviations of the flattened spectrum)
   
-
-
-
 
 
