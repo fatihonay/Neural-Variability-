@@ -1,3 +1,5 @@
+# Fitting Oscillations & One Over F
+
 Neural activity mainly consists of two major components;
  - Peridodic oscillatory activity 
  - Aperiodic non-oscillatory activity 
