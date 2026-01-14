@@ -101,6 +101,8 @@ Firstly, we find the highest peak in the flattened spectrum extract its properti
 We repeat the same process on the remaining spectrum to find the next highest peak. We terminate this operation when remaining peaks are below the noise threshold (default = 2 standard deviations of the flattened spectrum)
 
 
+Step 3:
+
 The iterative fitting gave us good initial guesses, but they might not be optimal when considering all peaks together. Actually there are two constrains in the fitting operation of Gaussians;
 - Gaussians that heavily overlap (whose means are within 0.75 s.d. of the other),
 - Gaussians that are too close to the edge (≤1.0 s.d.) of the spectrum
