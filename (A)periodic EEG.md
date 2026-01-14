@@ -80,7 +80,9 @@ where:
   So far so good? 
   We completed general framework of the method. However, I want you to be careful about the details when performing this methodological approach. Let's talk about these details now.
 
-  As you can remember, we should do curve fitting on the original PSD to acquire the aperiodic component at the 1st step. Note that this initial aperiodic component estimation is not the final parameterized model. Fitting at this stage is distorted due to the peaks in PSD and would not be reliable.  Nevertheless, we still need a rough estimation of aperiodic component to proceed. So, what should we do get initial aperiodic componet ?
+Step 1:
+
+As you can remember, we should do curve fitting on the original PSD to acquire the aperiodic component at the 1st step. Note that this initial aperiodic component estimation is not the final parameterized model. Fitting at this stage is distorted due to the peaks in PSD and would not be reliable.  Nevertheless, we still need a rough estimation of aperiodic component to proceed. So, what should we do get initial aperiodic componet ?
 
   - Offset = power at the first frequency point
   - Exponent = slope calculated between first and last frequency points (in log-log space)
@@ -93,11 +95,20 @@ These low-power points are not part of oscillatory peaks. They represent the tru
 
 Congratulations !!! Now we can proceed to review detils of the 2nd step.
 
-
-
+Step 2:
 
 Firstly, we find the highest peak in the flattened spectrum extract its properties; center frequency (location of the peak), peak power (height of the peak) and the bandwidth (standard deviation). Thus, we can fit a Gaussian with these parameters (center, power, bandwidth) and then subtract this Gaussian from the flattened spectrum
 We repeat the same process on the remaining spectrum to find the next highest peak. We terminate this operation when remaining peaks are below the noise threshold (default = 2 standard deviations of the flattened spectrum)
-  
+
+
+The iterative fitting gave us good initial guesses, but they might not be optimal when considering all peaks together. 
+
+
+Take all the Gaussian parameters found in Step 3 as seed values
+Use optimization (scipy.optimize.curve_fit) to fit all Gaussians simultaneously
+Each Gaussian is constrained to stay within 1.5 s.d. of its initial guess
+Minimize the squared error between the flattened spectrum and all N Gaussians combined
+
+Result: Optimized Gaussian parameters for all oscillatory peaks
 
 
