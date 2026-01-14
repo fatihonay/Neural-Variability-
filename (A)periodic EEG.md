@@ -30,6 +30,8 @@ The effective way of getting information from both periodic and aperiodic PDS co
 - Periodic Componenet Parameters: Center frequency, bandwidth, power
 - Aperiodic Component Parameters: Aperiodic exponent and aperiodic offset
 
+## The Proposed Method
+
 
 <img width="854" height="573" alt="Method" src="https://github.com/user-attachments/assets/80e60c35-04d8-4814-9a87-fcb7927e2316" />
 
