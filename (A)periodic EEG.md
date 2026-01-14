@@ -38,10 +38,10 @@ The effective way of getting information from both periodic and aperiodic PDS co
 - 4th Step: This re-fit aperiodic component is combined with the multi-Gaussian model to give the final fit.
 
 
-<img width="854" height="573" alt="Method" src="https://github.com/user-attachments/assets/80e60c35-04d8-4814-9a87-fcb7927e2316" />
 
 
 
+<img width="526" height="390" alt="Methodology" src="https://github.com/user-attachments/assets/1f8874be-0e78-4fca-b573-af175e8ad8d5" />
 
 
 
