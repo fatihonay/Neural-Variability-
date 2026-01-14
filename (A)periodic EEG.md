@@ -33,6 +33,9 @@ The effective way of getting information from both periodic and aperiodic PDS co
 ## The Proposed Method
 
 - 1st Step: Perform curve fitting on estimated PSD to characterize aperiodic component. Then, subtract fitted curve from original PSD (a and b in the figure below)
+- 2nd Step: Fit Gaussian around the peak of the remaining spectrum and subtract the Gaussian fit. If there are another peaks, continue to subtract them until no peaks remain.
+- 3th Step: Gaussians are removed from original PSD to reveal aperiodic component alone and curve fitting is peformed on the aperiodic component.
+- 4th Step: This re-fit aperiodic component is combined with the multi-Gaussian model to give the final fit.
 
 
 <img width="854" height="573" alt="Method" src="https://github.com/user-attachments/assets/80e60c35-04d8-4814-9a87-fcb7927e2316" />
