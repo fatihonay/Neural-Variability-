@@ -45,6 +45,36 @@ The effective way of getting information from both periodic and aperiodic PDS co
 
 ## The Core Algorithm
 
+The power spectrum is modeled as:
+
+$$
+PSD = L + \sum_{n=0}^{N} G_n
+$$
+
+where $L$ is the aperiodic component and $G_n$ represents N Gaussian peaks.
+
+Each Gaussian is defined as:
+
+$$
+G_n = a \cdot \exp\left(\frac{-(F-c)^2}{2w^2}\right)
+$$
+
+where:
+- $a$ is the peak power (in log₁₀ units)
+- $c$ is the center frequency (Hz)
+- $w$ is the standard deviation (Hz)
+- $F$ is the frequency vector
+
+The aperiodic component is modeled using a Lorentzian:
+
+$$
+L = b - \log(k + F^\chi)
+$$
+
+where:
+- $b$ is the broadband offset
+- $\chi$ is the aperiodic exponent
+- $k$ is the knee parameter
 
 
 
