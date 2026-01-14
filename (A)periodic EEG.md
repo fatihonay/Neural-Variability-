@@ -76,6 +76,12 @@ where:
 - $\chi$ is the aperiodic exponent
 - $k$ is the knee parameter
 
+  ## Evil in Details
+  So far so good? 
+  We completed general framework of the method. However, I want you to be careful about the details when performing this methodological approach.
+
+  
+
 
 
 
