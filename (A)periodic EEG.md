@@ -101,14 +101,10 @@ Firstly, we find the highest peak in the flattened spectrum extract its properti
 We repeat the same process on the remaining spectrum to find the next highest peak. We terminate this operation when remaining peaks are below the noise threshold (default = 2 standard deviations of the flattened spectrum)
 
 
-The iterative fitting gave us good initial guesses, but they might not be optimal when considering all peaks together. 
-
-
-Take all the Gaussian parameters found in Step 3 as seed values
-Use optimization (scipy.optimize.curve_fit) to fit all Gaussians simultaneously
-Each Gaussian is constrained to stay within 1.5 s.d. of its initial guess
-Minimize the squared error between the flattened spectrum and all N Gaussians combined
-
-Result: Optimized Gaussian parameters for all oscillatory peaks
+The iterative fitting gave us good initial guesses, but they might not be optimal when considering all peaks together. Actually there are two constrains in the fitting operation of Gaussians;
+- Gaussians that heavily overlap (whose means are within 0.75 s.d. of the other),
+- Gaussians that are too close to the edge (≤1.0 s.d.) of the spectrum
+are then dropped. The remaining Gaussian parameters are used in optimization (scipy.optimize.curve_fit) to fit all Gaussians simultaneously.
+In order to minimize the squared error between the flattened spectrum and all N Gaussians, each Gaussian is constrained to stay within 1.5 s.d. of its initial guess
 
 
