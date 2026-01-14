@@ -30,6 +30,7 @@ Contents
 
    installation
    FOOOF
+   Harnessing neural variability
    usage
 
 .. toctree::
