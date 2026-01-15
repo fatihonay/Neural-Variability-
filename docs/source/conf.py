@@ -22,11 +22,12 @@ html_theme = 'pydata_sphinx_theme'
 # Minimal theme options for instant style
 html_theme_options = {
     "logo": {
-        "text": "Neural Variability Docs",
+        "text": "Neural Variability",
     },
     "github_url": "https://github.com/fatihonay/Neural-Variability-",
     "show_toc_level": 2,
     "navigation_with_keys": True,
+    "navbar_align": "left",  # Better for doc-heavy sites
 }
 
 # Source and build directories
