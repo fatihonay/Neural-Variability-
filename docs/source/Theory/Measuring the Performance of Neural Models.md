@@ -10,7 +10,12 @@ The response of neurons to sensory input can vary from trial to trial. This unde
 - Variabilty of sensory stimuli across trials
 
 
-If we want to build a model accurately explaining the complex relationship between response of the neuron and sensory stimulus, we have to keep in mind that variability stemming from both stimulus dependent and independent factors could undermine the model performance. Furthermore, we may also misunderstand the model's performance due to the metrics which quantify only the simple correlation between the model’s prediction and the raw neural response.
+If we want to build a model accurately explaining the complex relationship between response of the neuron and sensory stimulus, we have to keep in mind that variability stemming from both stimulus dependent and independent factors could undermine the model performance. Furthermore, we may also misunderstand the model performance due to the metrics which quantify only the simple correlation between the model’s prediction and the raw neural response. There are two possibilities in evaluating the results in the case of the bad performance, correlation coeﬃcient of 0.5;
+
+ - the noisy dataset with perfect model
+ - the poor model with dataset of very low noise
+
+This situation obviously hinders us to interpret what the underlying problem with established model. 
 
 
 
