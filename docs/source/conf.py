@@ -14,6 +14,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'myst_parser',  # for markdown support
+    'sphinx_design',  # Add this
+
 ]
 
 # Theme
