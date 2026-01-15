@@ -1,4 +1,4 @@
-
+# Variability in neural activity and behavior
 I would like to summarize a potentially insightful article titled "Variability in neural activity and behavior" by Alfonso Renart and Christian K Machens.
 
 The variaiblity in the neural system is inevitable. This arising variability could be linked with wide range of factors from both internal and external elements.  
