@@ -29,6 +29,7 @@ jobs:
       - name: Build HTML
         run: |
           cd docs
+          clean html
           make html
           touch build/html/.nojekyll  # <--- ADD THIS LINE
 
