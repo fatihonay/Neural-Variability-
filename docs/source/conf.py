@@ -21,11 +21,11 @@ html_theme = 'pydata_sphinx_theme'
 html_css_files = ['custom.css']
 
 # Minimal theme options for instant style
+html_logo = "_static/logo.png"
+
 html_theme_options = {
-  "logo": {
-        "image_light": "_static/logo.png",  # Logo for light mode
-        "image_dark": "_static/logo.png",  # Optional: different logo for dark mode
-        "text": "Neural Variability",  # Appears next to logo
+    "logo": {
+        "text": "Neural Variability",
     },
     "github_url": "https://github.com/fatihonay/Neural-Variability-",
     "show_toc_level": 2,
