@@ -24,12 +24,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-          pip install sphinx sphinx_rtd_theme myst-parser nbsphinx sphinx-design
-          
+          pip install sphinx sphinx_rtd_theme myst-parser nbsphinx
+
       - name: Build HTML
         run: |
           cd docs
-          make clean
           make html
           touch build/html/.nojekyll  # <--- ADD THIS LINE
 
