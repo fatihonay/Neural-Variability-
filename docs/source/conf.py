@@ -1,10 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Neural Variability'
 copyright = '2026, Fatih Onay, PhD'
@@ -12,32 +8,45 @@ author = 'Fatih Onay, PhD'
 release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'myst_parser',           # Markdown support
+    'nbsphinx',              # Jupyter notebooks
+    'sphinx.ext.mathjax',    # LaTeX math
+    'sphinx.ext.autodoc',    # API docs (optional but recommended)
+    'sphinx.ext.napoleon',   # NumPy / Google docstrings
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-language = 'English'
+language = 'en'
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+# -- MyST configuration (for $$$ math) --------------------------------------
 
-html_theme = 'sphinx_rtd_theme' #'alabaster'
-html_static_path = ['_static']
-
-
-# docs/source/conf.py
-
-extensions = [
-    'myst_parser',        # For Markdown support
-    'nbsphinx',           # For Jupyter Notebooks
-    'sphinx.ext.mathjax', # <--- REQUIRED: Renders the math
-]
-
-# <--- ADD THIS BLOCK TO ENABLE $$$ MATH
 myst_enable_extensions = [
     "dollarmath",
     "amsmath",
 ]
+
+# -- HTML output -------------------------------------------------------------
+
+html_theme = 'pydata_sphinx_theme'
+
+html_static_path = ['_static']
+
+html_theme_options = {
+    "navigation_with_keys": True,
+    "show_toc_level": 2,
+    "navbar_align": "content",
+
+    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/yourusername/yourrepo",
+            "icon": "fa-brands fa-github",
+        },
+    ],
+}
