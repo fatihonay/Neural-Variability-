@@ -36,7 +36,6 @@ Contents
    :caption: Help & Reference:
 
 
-```rst
 Indices and tables
 ==================
 
