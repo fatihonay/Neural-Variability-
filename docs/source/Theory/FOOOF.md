@@ -1,5 +1,3 @@
-`{index} Algorithms; FOOOF`
-
 # Fitting Oscillations & One Over F
 
 Neural activity mainly consists of two major components;
@@ -121,3 +119,4 @@ For the further experience related to this method, you can visit this library in
 
 https://pypi.org/project/fooof/
 
+```{index} Algorithms; FOOOF
