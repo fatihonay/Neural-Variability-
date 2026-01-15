@@ -1,6 +1,6 @@
  # Measuring the Performance of Neural Models
 
-```{note]
+```{note}
 In this section we will review an article titled "Measuring the performance of neural models" by Dr. Oliver Schoppe et al. 
 ```
 
