@@ -1,3 +1,5 @@
+`{index} Algorithms; FOOOF`
+
 # Fitting Oscillations & One Over F
 
 Neural activity mainly consists of two major components;
