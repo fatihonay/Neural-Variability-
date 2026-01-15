@@ -1,6 +1,6 @@
 # Measuring the Performance of Neural Models
 
-```{attention]
+```{note]
 In this section we will review an article titled "Measuring the performance of neural models" by Dr. Oliver Schoppe et al. 
 ```
 
@@ -25,6 +25,14 @@ This situation obviously hinders us to interpret what the underlying problem wit
 
 
 
+$$\bar{y} = \frac{1}{N} \sum_{n=1}^{N} R_n(t)$$
+
+where:
+- $R_n(t)$ is the recorded response of the $n$-th stimulus presentation
+- $N$ is the total number of stimulus presentations (trials)
+- $\bar{y}(t)$ is the averaged firing rate at time bin $t$
+
+Both $R_n(t)$ and $\bar{y}(t)$ are functions of the time bin $t$, but the argument $t$ will not be shown for the rest of the manuscript.
 
 
 ```{index} Algorithms; Normalized Correlation Coefficient
