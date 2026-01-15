@@ -19,7 +19,7 @@ This repository aims to address the mystery of neural variability. It will serve
 
 Neural data flows into our world in different modalities ranging from single neuronal intracranial recordings to whole-brain level EEG and fMRI. I mostly study with EEG datasets for analyzing neural events, but I am aware of the limitations of EEG, such as low spatial resolution and anatomical ambiguity. I would like to extend scope of this repository into other modalities rather than only using EEG based approaches.
 
-The rise of AI & Deep Learning models will continue in the upcoming years. Another ambition for me is to transfer the useful mechanism from  neural dynamics within the brain to artificial neural networks and AI models. Especially, exploiting useful functional features of neural variability may lead us to reach stronger AI models in the future. 
+Furthermore, the rise of AI & Deep Learning models will continue in the upcoming years. Another ambition for me is to transfer the useful mechanism from  neural dynamics within the brain to artificial neural networks and AI models. Especially, exploiting useful functional features of neural variability may lead us to reach stronger AI models in the future. 
 
 This repository is not static and I will always update it. If you would like to contribute interesting ideas, please contact with me;
 fatih.onay@btu.edu.tr
