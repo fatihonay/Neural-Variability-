@@ -1,20 +1,8 @@
-/* Subtle background distinction */
 .bd-sidebar {
-    background-color: #f8f9fa;
+    background-color: #f1f3f5;
 }
 
-/* Main content stays white */
 .bd-article {
     background-color: #ffffff;
-}
-
-/* Right sidebar (TOC) slightly different */
-.bd-toc {
-    background-color: #f8f9fa;
-}
-
-/* Optional: subtle border for more definition */
-.bd-article {
-    border-left: 1px solid #e9ecef;
-    border-right: 1px solid #e9ecef;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
