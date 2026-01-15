@@ -28,21 +28,11 @@ Contents
    :maxdepth: 2
    :caption: User Guide:
 
-   installation
-   FOOOF
-   Harnessing neural variability
-   usage
+   Theory/index
+   
 
 .. toctree::
    :maxdepth: 2
    :caption: Help & Reference:
 
 
-   
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
