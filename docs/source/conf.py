@@ -31,15 +31,15 @@ myst_enable_extensions = [
 
 # -- HTML output -------------------------------------------------------------
 
-html_theme = 'pydata_sphinx_theme'
-
-html_static_path = ['_static']
-
+# In conf.py:
+html_theme = 'furo'
 html_theme_options = {
-    "collapse_navigation": True,
-    "show_prev_next": False,
-    "show_toc_level": 1,
-    "navbar_align": "content",
-    "secondary_sidebar_items": [],
+    "light_css_variables": {
+        "color-brand-primary": "#5B4B8A",
+        "color-brand-content": "#5B4B8A",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#9B8DC9",
+        "color-brand-content": "#9B8DC9",
+    },
 }
-
