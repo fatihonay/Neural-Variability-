@@ -15,7 +15,7 @@ Even though our position is not ideal for observing all factors within the brain
 
 Answering these questions could be inspiring for us to discover more about the neuronal dynamics within the brain. In order to gain more insight into this challenging problem, we should firstly identify what main factors contribute to the neural variability.
 
-```{note}
+```{important}
 Everything changes and not stay same.
 ```
 
