@@ -36,17 +36,10 @@ html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 
 html_theme_options = {
-    "navigation_with_keys": True,
-    "show_toc_level": 2,
+    "collapse_navigation": True,
+    "show_prev_next": False,
+    "show_toc_level": 1,
     "navbar_align": "content",
-
-    "navbar_end": ["theme-switcher", "navbar-icon-links"],
-
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/yourusername/yourrepo",
-            "icon": "fa-brands fa-github",
-        },
-    ],
+    "secondary_sidebar_items": [],
 }
+
