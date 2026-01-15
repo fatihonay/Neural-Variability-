@@ -1,6 +1,10 @@
 # Configuration file for the Sphinx documentation builder.
+#
+# For the full list of built-in configuration values, see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Neural Variability'
 copyright = '2026, Fatih Onay, PhD'
@@ -8,38 +12,32 @@ author = 'Fatih Onay, PhD'
 release = 'v1.0'
 
 # -- General configuration ---------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = [
-    'myst_parser',           # Markdown support
-    'nbsphinx',              # Jupyter notebooks
-    'sphinx.ext.mathjax',    # LaTeX math
-    'sphinx.ext.autodoc',    # API docs (optional but recommended)
-    'sphinx.ext.napoleon',   # NumPy / Google docstrings
-]
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
 
 language = 'en'
 
-# -- MyST configuration (for $$$ math) --------------------------------------
+# -- Options for HTML output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_theme = 'sphinx_rtd_theme' #'alabaster'
+html_static_path = ['_static']
+
+
+# docs/source/conf.py
+
+extensions = [
+    'myst_parser',        # For Markdown support
+    'nbsphinx',           # For Jupyter Notebooks
+    'sphinx.ext.mathjax', # <--- REQUIRED: Renders the math
+]
+
+# <--- ADD THIS BLOCK TO ENABLE $$$ MATH
 myst_enable_extensions = [
     "dollarmath",
     "amsmath",
 ]
-
-# -- HTML output -------------------------------------------------------------
-
-# In conf.py:
-html_theme = 'furo'
-html_theme_options = {
-    "light_css_variables": {
-        "color-brand-primary": "#5B4B8A",
-        "color-brand-content": "#5B4B8A",
-    },
-    "dark_css_variables": {
-        "color-brand-primary": "#9B8DC9",
-        "color-brand-content": "#9B8DC9",
-    },
-}
