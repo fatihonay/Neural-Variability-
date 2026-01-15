@@ -15,9 +15,9 @@ If we want to build a model accurately explaining the complex relationship betwe
  - the noisy dataset with perfect model
  - the poor model with dataset of very low noise
 
-'''{note}
+```{note}
 The aim is to measure correlation between model-predicted responses ŷ  and actual neuron-recorded responses y. The correlation coefficient measures how well these two match. A value of 1 means perfect prediction, 0 means no relationship.
-
+```
 
 This situation obviously hinders us to interpret what the underlying problem with established model. 
 
