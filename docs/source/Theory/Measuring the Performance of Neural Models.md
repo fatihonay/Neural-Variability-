@@ -1,4 +1,4 @@
-# Measuring the Performance of Neural Models
+ # Measuring the Performance of Neural Models
 
 ```{note]
 In this section we will review an article titled "Measuring the performance of neural models" by Dr. Oliver Schoppe et al. 
@@ -24,6 +24,7 @@ The aim is to measure correlation between model-predicted responses ŷ  and actu
 This situation obviously hinders us to interpret what the underlying problem with established model. 
 
 
+## Measuring the 
 
 $$\bar{y} = \frac{1}{N} \sum_{n=1}^{N} R_n(t)$$
 
