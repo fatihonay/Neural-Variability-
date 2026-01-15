@@ -15,4 +15,4 @@ Aim of a computational neuroscientist is to create realistic model which describ
 
 
 
-```{index} Algorithms; CC_{norm}
+```{index} Algorithms; $CC_{norm}$
