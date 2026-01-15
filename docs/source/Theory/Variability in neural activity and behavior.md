@@ -15,6 +15,10 @@ Even though our position is not ideal for observing all factors within the brain
 
 Answering these questions could be inspiring for us to discover more about the neuronal dynamics within the brain. In order to gain more insight into this challenging problem, we should firstly identify what main factors contribute to the neural variability.
 
+```{note}
+Everything changes and not stay same.
+```
+
 ### Source of variability 
 
 We can divide the main factors underlying neuronal variability into two broad categories: internal and external components. Because the brain maintains itself in a homeostatic state, it must continuously adjust its internal dynamics in response to external stimuli and environmental conditions. This ongoing adjustment gives rise to complex dynamics that are not easy to interpret directly.
