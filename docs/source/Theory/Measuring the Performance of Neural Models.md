@@ -24,7 +24,9 @@ The aim is to measure correlation between model-predicted responses ŷ  and actu
 This situation obviously hinders us to interpret what the underlying problem with established model. 
 
 
-## Measuring the 
+## Understanding the what we do 
+
+The classical experimental task consists of multiple repetitive trials.  However, neuronal responses across trials cam substantialyy change depending on the external conditions and internal dynamics. In order to overcome this issue, we generally take average of neuronal responses;
 
 $$\bar{y} = \frac{1}{N} \sum_{n=1}^{N} R_n(t)$$
 
