@@ -35,7 +35,7 @@ where:
 - $N$ is the total number of stimulus presentations (trials)
 - $\bar{y}(t)$ is the averaged firing rate at time bin $t$
 
-Both $R_n(t)$ and $\bar{y}(t)$ are functions of the time bin $t$, but the argument $t$ will not be shown for the rest of the manuscript.
+Both $R_n(t)$ and $\bar{y}(t)$ are functions of the time bin $t$, but the argument $t$ will not be shown for the rest of the .
 
 
 ```{index} Algorithms; Normalized Correlation Coefficient
