@@ -1,3 +1,11 @@
+.. index::
+   single: neural variability; origin
+   single: neural variability; behavior
+   single: neural variability; functional roles
+
+(neural-variability-origin)=
+
+
 # Variability in neural activity and behavior
 I would like to summarize a potentially insightful article titled "Variability in neural activity and behavior" by Alfonso Renart and Christian K Machens.
 
