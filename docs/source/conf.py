@@ -1,30 +1,36 @@
-# Configuration file for the Sphinx documentation builder.
-# -- Project information -----------------------------------------------------
-project = 'Neural Variability'
+# conf.py
+import os
+import sys
+
+# Basic project information
+project = 'Neural Variability Research'
 copyright = '2026, Fatih Onay, PhD'
-author = 'Fatih Onay, PhD'
-release = 'v1.0'
+author = 'Fatih Onay'
 
-# -- General configuration ---------------------------------------------------
+# Extensions
 extensions = [
-    'myst_parser',           # Markdown support
-    'nbsphinx',              # Jupyter notebooks
-    'sphinx.ext.mathjax',    # LaTeX math
-    'sphinx.ext.autodoc',    # API docs
-    'sphinx.ext.napoleon',   # NumPy / Google docstrings
-    'sphinx_design',         # Cards, grids, badges
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'myst_parser',  # for markdown support
 ]
 
+# Theme
+html_theme = 'pydata_sphinx_theme'
+
+# Minimal theme options for instant style
+html_theme_options = {
+    "logo": {
+        "text": "Neural Variability Docs",
+    },
+    "github_url": "https://github.com/yourusername/yourrepo",
+    "show_toc_level": 2,
+    "navigation_with_keys": True,
+}
+
+# Source and build directories
 templates_path = ['_templates']
-exclude_patterns = []
-language = 'en'
-
-# -- MyST configuration -----------------------------------------------------
-myst_enable_extensions = [
-    "dollarmath",
-    "amsmath",
-]
-
-# -- HTML output -------------------------------------------------------------
-html_theme = 'sphinx_rtd_theme'
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_static_path = ['_static']
+
