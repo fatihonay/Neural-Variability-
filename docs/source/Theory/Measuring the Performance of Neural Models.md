@@ -10,7 +10,7 @@ The response of neurons to sensory input can vary from trial to trial. This unde
 - Variabilty of sensory stimuli across trials
 
 
-If we want to build a model accurately explaining the complex relationship beteen response of the neuron and sensory stimulus, we need to make a much more  
+If we want to build a model accurately explaining the complex relationship between response of the neuron and sensory stimulus, we have to keep in mind that variability stemming from both stimulus dependent and independent factors could undermine the model performance. 
 
 
 
