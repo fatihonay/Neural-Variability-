@@ -36,3 +36,11 @@ Contents
    :caption: Help & Reference:
 
 
+```rst
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
+
+
