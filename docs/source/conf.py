@@ -18,6 +18,7 @@ extensions = [
 
 # Theme
 html_theme = 'pydata_sphinx_theme'
+html_css_files = ['custom.css']
 
 # Minimal theme options for instant style
 html_theme_options = {
