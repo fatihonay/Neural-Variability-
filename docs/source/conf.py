@@ -24,7 +24,7 @@ html_theme_options = {
     "logo": {
         "text": "Neural Variability Docs",
     },
-    "github_url": "https://github.com/yourusername/yourrepo",
+    "github_url": "https://github.com/fatihonay/Neural-Variability-",
     "show_toc_level": 2,
     "navigation_with_keys": True,
 }
