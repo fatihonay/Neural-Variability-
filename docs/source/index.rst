@@ -21,6 +21,54 @@ This repository is not static and I will always update it. If you would like to 
 .. note::
    This project is under active development.
 
+
+.. grid:: 1 1 2 2
+    :gutter: 3
+
+    .. grid-item-card:: 🚀 Quick Start
+        :class-card: sd-bg-primary sd-text-white
+        
+        Get up and running in 5 minutes with our quick start guide.
+        +++
+        .. button-ref:: quickstart
+            :color: light
+            :expand:
+            
+            Start Here
+
+    .. grid-item-card:: 📚 Tutorials
+        :class-card: sd-bg-info sd-text-white
+        
+        Step-by-step tutorials for common analysis workflows.
+        +++
+        .. button-ref:: tutorials/index
+            :color: light
+            :expand:
+            
+            View Tutorials
+
+    .. grid-item-card:: 🔧 API Reference
+        :class-card: sd-bg-success sd-text-white
+        
+        Complete API documentation for all functions and classes.
+        +++
+        .. button-ref:: api/index
+            :color: light
+            :expand:
+            
+            API Docs
+
+    .. grid-item-card:: 💡 Examples
+        :class-card: sd-bg-warning sd-text-dark
+        
+        Real-world examples and case studies.
+        +++
+        .. button-ref:: examples/index
+            :color: dark
+            :expand:
+            
+            See Examples
+
 Contents
 --------
 
