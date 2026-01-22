@@ -1,42 +1,53 @@
-name: Build and Deploy Docs
+name: Build and Deploy Documentation
 
 on:
   push:
     branches:
-      - main  # Change this if your default branch is 'master'
+      - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/docs.yml'
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
-          python -m pip install --upgrade pip
-          python -m pip install -r docs/requirements.txt
+      # --- FIX START: Install Pandoc ---
+      # Required by nbsphinx to convert notebooks to HTML
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+      # --- FIX END ---
 
-
-      - name: Build HTML
-        run: |
-          cd docs
-          make clean
-          make html
-          touch build/html/.nojekyll  # <--- ADD THIS LINE
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - run: pip install -r docs/requirements.txt
+      
+      # Added SPHINXOPTS="-v" to see specific error messages if it crashes
+      - run: cd docs && make html SPHINXOPTS="-v"
+      
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build/html
+          path: docs/_build/html
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/deploy-pages@v4
