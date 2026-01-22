@@ -25,6 +25,6 @@ Contents
    :caption: User Guide:
 
    source/Theory/index
-   source/Tutorial/index
+   source/Tutorials/index
    
 
