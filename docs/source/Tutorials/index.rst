@@ -6,5 +6,5 @@ Here we explain the math behind the project.
 .. toctree::
    :maxdepth: 1
    
-   TrialybyTrial
+   TrialybyTrial.ipynb
 
