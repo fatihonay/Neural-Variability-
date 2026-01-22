@@ -1,5 +1,5 @@
 
-# Tutorials 
+Tutorials 
 ======================
 
 Here we explain the math behind the project.
