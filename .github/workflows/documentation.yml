@@ -24,7 +24,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc
-          pip install sphinx sphinx-book-theme myst-parser nbsphinx sphinx-design 
+          pip install -r docs/requirements.txt
+
 
       - name: Build HTML
         run: |
