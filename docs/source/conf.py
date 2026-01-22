@@ -15,6 +15,8 @@ extensions = [
     'sphinx.ext.viewcode',
     'myst_parser',  # for markdown support
     'sphinx_design',  # Add this
+    'nbsphinx',           # ← ADD THIS
+    'sphinx_copybutton',  # ← ADD THIS
 
 ]
 
