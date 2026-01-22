@@ -77,6 +77,7 @@ Contents
    :caption: User Guide:
 
    Theory/index
+   Tutorial/index
    
 
 .. toctree::
