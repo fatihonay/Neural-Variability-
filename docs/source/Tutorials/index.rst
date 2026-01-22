@@ -1,5 +1,5 @@
 
-Theoretical Background
+# Tutorials 
 ======================
 
 Here we explain the math behind the project.
