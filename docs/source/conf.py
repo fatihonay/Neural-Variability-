@@ -19,7 +19,7 @@ extensions = [
 ]
 
 # Theme
-html_theme = 'pydata_sphinx_theme'
+html_theme = 'sphinx-book-theme'
 html_css_files = ['custom.css']
 
 # Minimal theme options for instant style
