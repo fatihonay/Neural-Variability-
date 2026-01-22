@@ -76,8 +76,8 @@ Contents
    :maxdepth: 2
    :caption: User Guide:
 
-   Theory/index
-   Tutorial/index
+   source/Theory/index
+   source/Tutorial/index
    
 
 .. toctree::
