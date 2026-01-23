@@ -7,4 +7,5 @@ Here we explain the math behind the project.
    :maxdepth: 1
    
    TrialbyTrial.ipynb
+   Aper_Osc.ipynb
 
