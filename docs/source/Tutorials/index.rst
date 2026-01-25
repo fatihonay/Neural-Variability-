@@ -8,4 +8,5 @@ Here we explain the math behind the project.
    
    TrialbyTrial.ipynb
    Aper_Osc.ipynb
+   Ar_Modeling
 
